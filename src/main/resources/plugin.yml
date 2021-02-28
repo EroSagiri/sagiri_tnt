@@ -1,0 +1,13 @@
+name: paper_tnt
+version: 1.0-SNAPSHOT
+main: me.sagiri.Tnt
+api-version: 1.16
+author: [ sagiri ]
+description: 在玩家的脚下生成tnt
+website: https://sagiri.me
+commands:
+  tnt:
+    description: 在玩家的脚下生成tnt
+    usage: /<command> [player]
+    permission: inferno.flagrate
+    permission-message: 没有权限
